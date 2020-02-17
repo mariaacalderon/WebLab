@@ -6,27 +6,29 @@
     <meta charset="utf-8">
     <title>Basic HTML</title>
     <meta name="Author" content="Maria Calderon">
-    <meta name="description" content="Basic HTML eample">
+    <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css"
+ <meta name="viewport" content="initial-scale=1">
   </head>
   <!--This is the body of my website-->
   <body>
     <!--This is my header-->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontaLine">
           <li> <a href="https://www.apple.com/">Apple</a>  </li>
           <li>  <a href="https://www.youtube.com/"> Youtube </a> </li>
           <li> <a href="https://www.facebook.com/">Facebook</a> </li>
 
         </ul>
       </nav>
-
-    <section>
-
-
+</header>
 <!-- to create sidebars -->
-    </aside>
+<aside class="sidebar">
+  <h3>Sidebar</h3>
     <ul>
       <li>item 1</li>
       <li>item 2</li>
@@ -39,10 +41,15 @@
     </ol>
     </aside>
 
+<div class="container">
+    <section>
+        <h1>Title</h1>
+
+
 <!-- We use articles magazines articles, posts, etc. -->
-  </article>
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
+  <article id="dog">
+
+  <h2>Title</h2>
   <p>
     <!-- This is for best practices -->
     <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong>
@@ -54,13 +61,15 @@
     Sed pharetra finibus finibus. Suspendisse vestibulum nisi ut turpis faucibus faucibus.
   <strong> Quisque dignissim justo vel dui luctus, nec facilisis nisl aliquet.</strong>
   </p>
-  <img src="dog.jpg" alt="dog.jpg"width="350mpx">
+  <img src="img/dog.jpg" alt="dog.jpg" width="350">
 </article>
 
   </section>
+</div>
 
 
-</section>
+<section>
+  <h2>Title</h2>
   <address>
   <ul>
      <li>Name: Maria C</li>
@@ -68,7 +77,7 @@
      <li>Email: mc038@gmail.com</li>
    </ul>
  </address>
- </section>
+</section>
 
  <table>
    <tr>
@@ -76,6 +85,7 @@
      <th>Human Years</th>
      <th>Dog Years</th>
    </tr>
+   <tr>
    <!-- this are table cells -->
    <td>1</td>
    <td>7</td>

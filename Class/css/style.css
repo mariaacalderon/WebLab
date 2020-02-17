@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(198, 247, 238);
+
+}
+
+h1
+{
+color: red;
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* this is class */
+.container
+{
+margin: auto;
+padding: 20px;
+background-color: rgb(133, 204, 217) ;
+width: 50%;
+box-shadow: 15px 20px 10px 10px rgb(229, 129, 231);
+border-radius: 20px;
+}
+
+.container h1 {
+  font-size: 24pt;
+}
+
+.sidebar {
+  float:left;
+  margin-left: 40px;
+  padding: 20px;
+  background-color: rgb(133, 204, 217) ;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px rgb(229, 129, 231);
+  border-radius: 20px;
+
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 40px;
+  padding:20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaLine li a:hover {
+  color: blue;
+}
+
+
+.article h1 {
+  color: blue;
+
+}
+
+
+/* this is an id */
+#dog
+{
+  background-color: blue;
+  width: 400px;
+}

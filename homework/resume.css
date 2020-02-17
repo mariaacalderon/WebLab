@@ -1,0 +1,88 @@
+body {
+  background-color:rgb(152, 222, 244);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+text-align: center;
+width: 100%;
+margin:0 auto;
+color: black;
+font-family: 'Montserrat', sans-serif;
+}
+
+.biography {
+  width: 100%;
+margin-right: 30px;
+}
+
+.container
+{
+margin: auto;
+margin-bottom: 20px;
+padding: 20px;
+background-color: rgb(202, 181, 255, .5);
+width: 50%;
+border-radius: 20px;
+
+}
+
+.container h1 {
+  font-size: 30pt;
+}
+
+.titles
+{
+ color: purple;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+  float: right;
+  margin-right: 40px;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgb(202, 181, 255, .5);
+  width: 15%;
+  box-shadow: 3px 7px 5px 2px rgb(0, 162, 252);
+  border-radius: 30px;
+
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 40px;
+  padding:20px 60px 20px 60px;
+  background-color: rgb(202, 181, 255);
+  width: 10%;
+}
+
+.horizontaLine li a {
+  color: black;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.horizontaLine li a:hover {
+  color: rgb(152, 222, 244);
+}
+
+.bioText
+{
+  width: 45%;
+  float: right;
+  padding:5px;
+
+}
