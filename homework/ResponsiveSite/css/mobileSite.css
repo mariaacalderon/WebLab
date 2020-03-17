@@ -35,7 +35,7 @@ h1
 
 .gridFilm
 {
-  width: 50%;
+  width: 100%;
   height: 50%;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -47,9 +47,7 @@ h1
 
   .videoPlayer iframe
   {
-  width: 200%;
-  height: 100%;
-
+  width: 100%;
   }
 
 .navUl
@@ -82,9 +80,9 @@ h1
 
 .navUl li
 {
-  display: inline;
   margin: 10px;
   padding: 10px 10px 10px;
+  text-align: center;
 }
 
 .navUl li a
