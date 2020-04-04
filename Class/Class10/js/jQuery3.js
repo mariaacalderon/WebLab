@@ -10,7 +10,7 @@ $("#set3").hide();
 $("#button1").click(function(){
   $("#set1").show();
   $("#set2").hide();
-  $("set3").hide();
+  $("#set3").hide();
 });
 // When someone Clicks button2 show the second one and hide the other 2 divs with the id set1 and set3
 $("#button2").click(function(){
