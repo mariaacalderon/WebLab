@@ -1,0 +1,77 @@
+body {
+  background-color: lightblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+  font-size: 3em;
+  color: purple;
+  text-align: center;
+}
+
+h2
+{
+  font-size: 25pt;
+  color: purple;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 15pt;
+  color: purple;
+  text-align: center;
+}
+
+.introCookies
+{
+  font-size: 2em;
+  text-align: center;
+}
+
+.Buttons
+{
+  font-size: 30pt;
+  width: 15%;
+  margin: auto;
+  height: 80%;
+}
+
+.Buttons a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: purple;
+  transition: color .3s;
+}
+.Buttons a:hover {
+  color: black;
+}
+
+
+.picCookies1
+{
+  width: 40%;
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 45% 45%;
+  grid-column-gap: 10px;
+}
+.picCookies1 a img
+{
+  width: 100%;
+}
+
+.ingredients
+{
+  text-align: center;
+  list-style-type: none;
+}
+
+.directions
+{
+text-align: center;
+}
