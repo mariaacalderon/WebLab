@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 70pt;
+  margin: 0;
+  text-align: center;
+
+}
+header
+{
+  margin:0;
+  padding: 0;
+}
+
+.enter
+{
+  width: 100%;
+  height: 100vh;
+  line-height: 10;
+  background-image: url("../img/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.enter a {
+  text-decoration: none;
+}
+
+.main
+{
+  font-size: 50pt;
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 45vh;
+  background-color: rgba(40, 40, 40, .3);
+}
+
+
+
+.pink
+{
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: pink;
+}
+.blue
+{
+  background-image: url("../img/nyc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yellow
+{
+  background-color: lightblue;
+}
+
+.gridPhoto
+{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15pt;
+
+}
+.gridPhoto div img
+{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.gridPhoto div p
+{
+  font-family: sans-serif;
+  font-size: 20pt;
+  line-height: 2;
+}
+
+.yellow h1
+{
+  text-align: center;
+  color: black;
+}
+
+
+.black
+{
+  background-color: black;
+}
+
+.purple
+{
+  background-color: black;
+}
+
+
+
+ /* ------------- 2nd Section --------------- */
+
+.pink {
+  background-image: url("../img/beachy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.pink h1
+{
+  text-align: center;
+}
+
+.gridBoxes
+{
+  height: 60vh;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+
+}
+.box
+{
+  border: 5px solid black;
+  height: 70%;
+}
+
+.box h3 {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.box p {
+  text-align: center;
+  color: block;
+  padding: 20px;
+  padding-top: 90px;
+}
+
+
+
+
+
+ /* ------------- 2nd Section --------------- */
+
+
+
+  /* ------------- 3rd Section --------------- */
+.black h1 {
+  text-align: center;
+  color: white;
+  margin-top: 10vh;
+}
+
+.gridFilm
+{
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15pt;
+  grid-row-gap: 15pt;
+  }
+
+  .gridFilm iframe
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* ------------- 3rd Section --------------- */
+
+  /* ------------- 4th Section --------------- */
+
+.purple h1
+{
+  height: 10vh;
+  text-align: center;
+  color: white;
+  margin-top: 10vh;
+}
+
+
+.gallery {
+
+  width: 85%;
+  height: 40vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap:5px;
+}
+.gallery img
+{
+
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+  /* ------------- 4th Section --------------- */
+
+.orange
+{
+  background-image: url("../img/film.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orange h1 {
+color: white;
+height: 10vh;
+text-align: center;
+}
+
+.orange1 h2
+{
+  text-align: center;
+  color: white;
+  height: 10vh;
+  font-size: 40pt;
+}
+
+
+.orangeB
+{
+  height: 30%;
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 60px;
+}
+
+
+.box1 {
+  border: 5px solid white;
+  height: 98%;
+  background-color: rgba(40, 40, 40, .8);
+
+
+}
+
+.box1 h3 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+
+.box1 p
+{
+  text-align: center;
+  color: white;
+  padding: 40px;
+  padding-top: 20px;
+  font-size: 30pt;
+}
